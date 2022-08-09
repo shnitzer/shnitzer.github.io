@@ -68,6 +68,9 @@
              </td>
              </tr>
             </tbody></table> -->
+
+        <!-- ############################# Publications ################################# -->
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -76,6 +79,8 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- -------------------------- LES -------------------------- -->
           <tr onmouseout="les_stop()" onmouseover="les_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -95,8 +100,8 @@
               </script>
             </td>
             <td style="padding-left:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2202.01671.pdf">
-                <papertitle>Log-Euclidean Signatures for Intrinsic Distances Between Unaligned Datasets</papertitle>
+              <a href="https://proceedings.mlr.press/v162/shnitzer22a.html">
+                <papertitle>Log-Euclidean signatures for intrinsic distances between unaligned datasets</papertitle>
               </a>
               <br>
               <strong>Tal Shnitzer</strong>,
@@ -108,12 +113,51 @@
               <br>
               <a href="https://arxiv.org/pdf/2202.01671.pdf">arXiv</a>
               /
+              <a href="https://proceedings.mlr.press/v162/shnitzer22a/shnitzer22a.pdf">paper</a>
+              /
               <a href="https://github.com/shnitzer/les-distance">code</a>
               <p></p>
             </td>
           </tr>
 
-        <tr onmouseout="rmra_stop()" onmouseover="rmra_start()">
+          <!-- -------------------------- MANIFEST -------------------------- -->
+          <tr onmouseout="mfs_stop()" onmouseover="mfs_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mfs_image'>
+                  <img src='images/mfs_1.png' width="160"></div>
+                <img src='images/mfs_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mfs_start() {
+                  document.getElementById('mfs_image').style.opacity = "1";
+                }
+
+                function mfs_stop() {
+                  document.getElementById('mfs_image').style.opacity = "0";
+                }
+                mfs_stop()
+              </script>
+            </td>
+            <td style="padding-left:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2207.08574">
+                <papertitle>ManiFeSt: Manifold-based feature selection for small data sets</papertitle>
+              </a>
+              <br>
+              <a>David Cohen</a>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://medicine.yale.edu/lab/kluger/">Yuval Kluger</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+              <br>
+              <!-- <em>ICML</em>, 2022 -->
+              <br>
+              <a href="https://arxiv.org/abs/2207.08574">arXiv</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- RMRA -------------------------- -->
+          <tr onmouseout="rmra_stop()" onmouseover="rmra_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='rmra_image'>
@@ -133,7 +177,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/pdf/2202.01671.pdf">
-                <papertitle>Spatiotemporal Analysis Using Riemannian Composition of Diffusion Operators</papertitle>
+                <papertitle>Spatiotemporal analysis using riemannian composition of diffusion operators</papertitle>
               </a>
               <br>
               <strong>Tal Shnitzer</strong>,
@@ -148,7 +192,8 @@
               <p></p>
             </td>
           </tr>
-					
+
+          <!-- -------------------------- GOG -------------------------- -->
           <tr onmouseout="gog_stop()" onmouseover="gog_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -181,7 +226,7 @@
               <a href="https://medicine.yale.edu/bbs/computational/profile/yuval_kluger/">Yuval Kluger</a>
               <br>
               <em>PLoS computational biology</em>, 2021
-              <br> -->
+              <br>
               <a href="https://www.biorxiv.org/content/10.1101/2020.08.23.263467v1.article-info">bioRXiv</a>
               /
               <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008741">paper</a>
@@ -189,10 +234,416 @@
             </td>
           </tr>
 
+          <!-- -------------------------- DMK -------------------------- -->
+          <tr onmouseout="dmk_stop()" onmouseover="dmk_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dmk_image'>
+                  <img src='images/dmk_1.png' width="160"></div>
+                <img src='images/dmk_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dmk_start() {
+                  document.getElementById('dmk_image').style.opacity = "1";
+                }
+
+                function dmk_stop() {
+                  document.getElementById('dmk_image').style.opacity = "0";
+                }
+                dmk_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9072322">
+                <papertitle>Diffusion maps kalman filter for a class of systems with gradient flows</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://meche.mit.edu/people/faculty/JJS@MIT.EDU">Jean-Jacques Slotine</a>
+              <br>
+              <em>IEEE TSP</em>, 2020
+              <br>
+              <a href="https://arxiv.org/pdf/1711.09598.pdf">arXiv</a>
+              /
+              <a href="https://ieeexplore.ieee.org/document/9072322">paper</a>
+              /
+              <a href="https://github.com/shnitzer/Diffusion-Maps-Kalman">code</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- CON -------------------------- -->
+          <tr onmouseout="con_stop()" onmouseover="con_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='con_image'>
+                  <img src='images/con_1.png' width="160"></div>
+                <img src='images/con_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function con_start() {
+                  document.getElementById('con_image').style.opacity = "1";
+                }
+
+                function con_stop() {
+                  document.getElementById('con_image').style.opacity = "0";
+                }
+                con_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25628">
+                <papertitle>Layer- and cell-specific recruitment dynamics during epileptic seizures in vivo</papertitle>
+              </a>
+              <br>
+              <a href="https://www.researchgate.net/profile/Fadi-Aeed">Fadi Aeed</a>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://www.rambam.org.il/en/departmentsandclinics/division_of_internal_medicine/neurology/neurology-division-team/?itemid=%7B0c582bd5-0391-4518-9292-1578b095f92a%7D">Yitzhak Schiller</a>
+              <br>
+              <em>Annals of Neurology</em>, 2019
+              <br>
+              <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25628">paper</a>
+              /
+              <a href="https://github.com/fadiae/AnalysisCodes-SpikeDetection-ConnectivityAnalysis-">code</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- DMP -------------------------- -->
+          <tr onmouseout="dmp_stop()" onmouseover="dmp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dmp_image'>
+                  <img src='images/dmp_1.png' width="160"></div>
+                <img src='images/dmp_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dmp_start() {
+                  document.getElementById('dmp_image').style.opacity = "1";
+                }
+
+                function dmp_stop() {
+                  document.getElementById('dmp_image').style.opacity = "0";
+                }
+                dmp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8903123">
+                <papertitle>Diffusion maps particle filter</papertitle>
+              </a>
+              <br>
+              <a href="https://meche.mit.edu/people/faculty/JJS@MIT.EDU">Lukas Forster</a>,
+              <a href="https://www.lms.tf.fau.eu/person/schmidt-alexander/">Alexander Schmidt</a>,
+              <a href="https://www.lms.tf.fau.eu/person/kellermann-walter/#collapse_3">Walter Kellermann</a>,
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+              <br>
+              <em>Eusipco</em>, 2019
+              <br>
+              <a href="https://ronentalmon.com/wp-content/uploads/2019/09/ManifoldParticleFilter_Eusipco19-final.pdf">arXiv</a>
+              /
+              <a href="https://ieeexplore.ieee.org/abstract/document/8903123">paper</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- DIF -------------------------- -->
+          <tr onmouseout="dif_stop()" onmouseover="dif_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dif_image'>
+                  <img src='images/dif_1.png' width="160"></div>
+                <img src='images/dif_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dif_start() {
+                  document.getElementById('dif_image').style.opacity = "1";
+                }
+
+                function dif_stop() {
+                  document.getElementById('dif_image').style.opacity = "0";
+                }
+                dif_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://epubs.siam.org/doi/abs/10.1137/18M1218157?journalCode=sjmdaq">
+                <papertitle>Recovering hidden components in multimodal data with composite diffusion operators</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://mirela.net.technion.ac.il/">Mirela Ben-Chen</a>,
+              <a href="https://profiles.stanford.edu/leonidas-guibas">Leonidas Guibas</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://hautiengwu.wordpress.com/home/">Hau-Tieng Wu</a>
+              <br>
+              <em>SIAM Journal on Mathematics of Data Science</em>, 2019
+              <br>
+              <a href="https://arxiv.org/abs/1808.07312">arXiv</a>
+              /
+              <a href="https://epubs.siam.org/doi/abs/10.1137/18M1218157?journalCode=sjmdaq">paper</a>
+              /
+              <a href="https://github.com/shnitzer/Recovering-hidden-components-in-multimodal-data">code</a>
+              /
+              <a href="TODO">video</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- ADAD -------------------------- -->
+          <tr onmouseout="adad_stop()" onmouseover="adad_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='adad_image'>
+                  <img src='images/adad_1.png' width="160"></div>
+                <img src='images/adad_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function adad_start() {
+                  document.getElementById('adad_image').style.opacity = "1";
+                }
+
+                function adad_stop() {
+                  document.getElementById('adad_image').style.opacity = "0";
+                }
+                adad_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/7952272">
+                <papertitle>Alternating diffusion maps for dementia severity assessment</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://www.linkedin.com/in/maya-rapaport/?originalSubdomain=il">Maya Rapaport</a>,
+              <a href="https://www.linkedin.com/in/noga-cohen-b59778113/?originalSubdomain=il">Noga Cohen</a>,
+              <a href="https://www.rambam.org.il/en/departmentsandclinics/division_of_internal_medicine/neurology/neurology-division-team/?itemid=%7Ba4b8b68b-b2f8-49fc-9757-a89324a9b456%7D">Natalya Yarovinsky</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://cony2020.comtecmed.com/judith-aharon-peretz/">Judith Aharon-Peretz</a>
+              <br>
+              <em>ICASSP</em>, 2017
+              <br>
+              <a href="https://ronen.net.technion.ac.il/files/2016/07/ICASSP_Shnitzer_2017.pdf">arXiv</a>
+              /
+              <a href="https://ieeexplore.ieee.org/document/7952272">paper</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- SYN -------------------------- -->
+          <tr onmouseout="syn_stop()" onmouseover="syn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='syn_image'>
+                  <img src='images/syn_1.png' width="160"></div>
+                <img src='images/syn_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function syn_start() {
+                  document.getElementById('syn_image').style.opacity = "1";
+                }
+
+                function syn_stop() {
+                  document.getElementById('syn_image').style.opacity = "0";
+                }
+                syn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8094297">
+                <papertitle>Direction modulation of muscle synergies in a hand-reaching task</papertitle>
+              </a>
+              <br>
+              <a href="https://elsc.huji.ac.il/people-directory/post-docs/sharon-israely/">Sharon Israely</a>,
+              <a href="https://hw.haifa.ac.il/en/research-fellows">Gerry Leisman</a>,
+              <a href="https://www.linkedin.com/in/chay-machluf-34204753/?originalSubdomain=il">Chay Machluf</a>,
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://hw.haifa.ac.il/en/people/pt/ecarmeli">Eli Carmeli</a>
+              <br>
+              <em>IEEE TNSRE</em>, 2017
+              <br>
+              <a href="https://sipl.eelabs.technion.ac.il/wp-content/uploads/sites/6/2017/12/Israely_2017_Synergies_Healthy.pdf">arXiv</a>
+              /
+              <a href="https://ieeexplore.ieee.org/abstract/document/8094297">paper</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- OBS -------------------------- -->
+          <tr onmouseout="obs_stop()" onmouseover="obs_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='obs_image'>
+                  <img src='images/obs_1.png' width="160"></div>
+                <img src='images/obs_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function obs_start() {
+                  document.getElementById('obs_image').style.opacity = "1";
+                }
+
+                function obs_stop() {
+                  document.getElementById('obs_image').style.opacity = "0";
+                }
+                obs_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/7588196">
+                <papertitle>Manifold learning with contracting observers for data-driven time-series analysis</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://meche.mit.edu/people/faculty/JJS@MIT.EDU">Jean-Jacques Slotine</a>
+              <br>
+              <em>IEEE TSP</em>, 2016
+              <br>
+              <a href="https://arxiv.org/pdf/1604.04492.pdf">arXiv</a>
+              /
+              <a href="https://ieeexplore.ieee.org/document/7588196">paper</a>
+              /
+              <a href="https://github.com/shnitzer/Manifold-Learning-for-Data-Driven-Dynamical-System-Analysis">code</a>
+              <p></p>
+            </td>
+          </tr>
 
         </tbody></table>
 
-				
+        <!-- ############################# Book Chapters and Projects ################################# -->
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Book Chapters and Select Student Projects</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <!-- TODO: 2 book chapters, EMG project (+ link to IEEE), placenta (until it becomes a paper...) -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- -------------------------- KOOP -------------------------- -->
+          <tr onmouseout="koop_stop()" onmouseover="koop_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='koop_image'>
+                  <img src='images/koop_1.png' width="160"></div>
+                <img src='images/koop_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function koop_start() {
+                  document.getElementById('koop_image').style.opacity = "1";
+                }
+
+                function koop_stop() {
+                  document.getElementById('koop_image').style.opacity = "0";
+                }
+                koop_stop()
+              </script>
+            </td>
+            <td style="padding-left:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-35713-9_14">
+                <papertitle>Manifold learning for data-driven dynamical system analysis</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://meche.mit.edu/people/faculty/JJS@MIT.EDU">Jean-Jacques Slotine</a>
+              <br>
+              <em>The Koopman Operator in Systems and Control</em>, 2020
+              <br>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-35713-9_14">chapter</a>
+              /
+              <a href="https://github.com/shnitzer/Manifold-Learning-for-Data-Driven-Dynamical-System-Analysis">code</a>
+              <p></p>
+            </td>
+          </tr>
+
+          <!-- -------------------------- DOP -------------------------- -->
+          <tr onmouseout="dop_stop()" onmouseover="dop_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dop_image'>
+                  <img src='images/dop_1.png' width="160"></div>
+                <img src='images/dop_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dop_start() {
+                  document.getElementById('dop_image').style.opacity = "1";
+                }
+
+                function dop_stop() {
+                  document.getElementById('dop_image').style.opacity = "0";
+                }
+                dop_stop()
+              </script>
+            </td>
+            <td style="padding-left:20px;width:75%;vertical-align:middle">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570865919300213">
+                <papertitle>Diffusion operators for multimodal data analysis</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://roy.lederman.name/">Roy Lederman</a>,
+              <a href="https://sites.google.com/site/girenliu/home?authuser=0">Gi-Ren Liu</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>,
+              <a href="https://hautiengwu.wordpress.com/home/">Hau-Tieng Wu</a>
+              <br>
+              <em>Handbook of Numerical Analysis v20</em>, 2019
+              <br>
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S1570865919300213">chapter</a>
+              <p></p>
+            </td>
+          </tr>
+
+        <!-- -------------------------- EMG proj -------------------------- -->
+          <tr onmouseout="emg_stop()" onmouseover="emg_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='emg_image'>
+                  <img src='images/emg_1.png' width="160"></div>
+                <img src='images/emg_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function emg_start() {
+                  document.getElementById('emg_image').style.opacity = "1";
+                }
+
+                function emg_stop() {
+                  document.getElementById('emg_image').style.opacity = "0";
+                }
+                emg_stop()
+              </script>
+            </td>
+            <td style="padding-left:20px;width:75%;vertical-align:middle">
+              <a href="https://sigport.org/documents/real-time-control-hand-prosthesis-using-emg-0">
+                <papertitle>Real time control of hand prosthesis using EMG</papertitle>
+              </a>
+              <br>
+              <a>Or Dicker</a>,
+              <a>Aviv Peleg</a>,
+              <strong>Tal Shnitzer</strong>,
+              <a>Oscar Lichtenstein</a>,
+              <a>Yair Moshe</a>
+              <br>
+              <em>SIPL Technion</em>, 2017
+              <br>
+              <a href="https://sipl.eelabs.technion.ac.il/projects/time-control-of-hand-prosthesis-using-surface-emg/">project page</a>
+              /
+              <a href="https://sigport.org/documents/real-time-control-hand-prosthesis-using-emg-0">summary</a>
+              /
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7814327">IEEE SPM feature</a>
+              <p></p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <!-- ############################# Footnote ################################# -->
+
         <hr>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>

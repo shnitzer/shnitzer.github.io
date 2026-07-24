@@ -80,6 +80,15 @@
 			      <td style="padding:16px; width:100%; vertical-align:middle">
 			        <h2>Selected Publications</h2>
 			        <p>
+
+					  <!-- -------------------------- AoU Patterns Arxiv -------------------------- -->
+						
+					  <!-- -------------------------- HF prediction -------------------------- -->
+						
+					  <!-- -------------------------- LLM Routing -------------------------- -->
+
+
+						
 			          <!-- -------------------------- MANIFEST -------------------------- -->
 			          <tr onmouseout="mfs_stop()" onmouseover="mfs_start()">
 			            <td style="padding:20px;width:25%;vertical-align:middle">
@@ -120,51 +129,55 @@
 			            </td>
 			          </tr>
 
+
+
+					<!-- -------------------------- LES -------------------------- -->
+			          <tr onmouseout="les_stop()" onmouseover="les_start()">
+			            <td style="padding:20px;width:25%;vertical-align:middle">
+			              <div class="one">
+			                <div class="two" id='les_image'>
+			                  <img src='images/les_1.png' width="160"></div>
+			                <img src='images/les_2.png' width="160">
+			              </div>
+			              <script type="text/javascript">
+			                function les_start() {
+			                  document.getElementById('les_image').style.opacity = "1";
+			                }
+			
+			                function les_stop() {
+			                  document.getElementById('les_image').style.opacity = "0";
+			                }
+			                les_stop()
+			              </script>
+			            </td>
+			            <td style="padding-left:20px;width:75%;vertical-align:middle">
+			              <a href="https://proceedings.mlr.press/v162/shnitzer22a.html">
+			                <papertitle>Log-Euclidean signatures for intrinsic distances between unaligned datasets</papertitle>
+			              </a>
+			              <br>
+			              <strong>Tal Shnitzer</strong>,
+			              <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>,
+			              <a href="https://kgreenewald.github.io/">Kristjan Greenewald</a>,
+			              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
+			              <br>
+			              <em>ICML</em>, 2022
+			              <br>
+			              <a href="https://arxiv.org/pdf/2202.01671.pdf">arXiv</a>
+			              /
+			              <a href="https://proceedings.mlr.press/v162/shnitzer22a/shnitzer22a.pdf">paper</a>
+			              /
+			              <a href="https://github.com/shnitzer/les-distance">code</a>
+			              <p></p>
+			            </td>
+			          </tr>
+
 			        </p>
 			      </td>
 			    </tr>
 			  </tbody>
 			</table>
 
-		  <!-- -------------------------- LES -------------------------- -->
-          <tr onmouseout="les_stop()" onmouseover="les_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='les_image'>
-                  <img src='images/les_1.png' width="160"></div>
-                <img src='images/les_2.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function les_start() {
-                  document.getElementById('les_image').style.opacity = "1";
-                }
-
-                function les_stop() {
-                  document.getElementById('les_image').style.opacity = "0";
-                }
-                les_stop()
-              </script>
-            </td>
-            <td style="padding-left:20px;width:75%;vertical-align:middle">
-              <a href="https://proceedings.mlr.press/v162/shnitzer22a.html">
-                <papertitle>Log-Euclidean signatures for intrinsic distances between unaligned datasets</papertitle>
-              </a>
-              <br>
-              <strong>Tal Shnitzer</strong>,
-              <a href="https://moonfolk.github.io/">Mikhail Yurochkin</a>,
-              <a href="https://kgreenewald.github.io/">Kristjan Greenewald</a>,
-              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
-              <br>
-              <em>ICML</em>, 2022
-              <br>
-              <a href="https://arxiv.org/pdf/2202.01671.pdf">arXiv</a>
-              /
-              <a href="https://proceedings.mlr.press/v162/shnitzer22a/shnitzer22a.pdf">paper</a>
-              /
-              <a href="https://github.com/shnitzer/les-distance">code</a>
-              <p></p>
-            </td>
-          </tr>
+		  
 
 		<!-- TODO selected publication -->
         <!-- ############################# Publications ################################# -->

@@ -80,113 +80,53 @@
 			      <td style="padding:16px; width:100%; vertical-align:middle">
 			        <h2>Selected Publications</h2>
 			        <p>
-			          TODO
+			          <!-- -------------------------- MANIFEST -------------------------- -->
+			          <tr onmouseout="mfs_stop()" onmouseover="mfs_start()">
+			            <td style="padding:20px;width:25%;vertical-align:middle">
+			              <div class="one">
+			                <div class="two" id='mfs_image'>
+			                  <img src='images/mfs_1.png' width="160"></div>
+			                <img src='images/mfs_2.png' width="160">
+			              </div>
+			              <script type="text/javascript">
+			                function mfs_start() {
+			                  document.getElementById('mfs_image').style.opacity = "1";
+			                }
+			
+			                function mfs_stop() {
+			                  document.getElementById('mfs_image').style.opacity = "0";
+			                }
+			                mfs_stop()
+			              </script>
+			            </td>
+			            <td style="padding-left:20px;width:75%;vertical-align:middle">
+			              <a href="https://arxiv.org/abs/2207.08574">
+			                <papertitle>Few-Sample Feature Selection via Feature Manifold Learning</papertitle>
+			              </a>
+			              <br>
+			              <a>David Cohen</a>,
+			              <strong>Tal Shnitzer</strong>,
+			              <a href="https://medicine.yale.edu/lab/kluger/">Yuval Kluger</a>,
+			              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+			              <br>
+						  <em>ICML</em>, 2023
+			              <br>
+			              <a href="https://arxiv.org/abs/2207.08574">arXiv</a>
+				      /
+			              <a href="https://openreview.net/pdf?id=0lufU7dRWA">paper</a>
+				      /
+				      <a href="https://github.com/DavidCohen2/ManiFeSt">code</a>
+			              <p></p>
+			            </td>
+			          </tr>
+
 			        </p>
 			      </td>
 			    </tr>
 			  </tbody>
 			</table>
 
-		<!-- TODO selected publication -->
-        <!-- ############################# Publications ################################# -->
-
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Clinical ML and Digital Health Publications</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-		  
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Geometric Machine Learning and Manifold Methods Publications</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-		  <!-- -------------------------- MANIFEST -------------------------- -->
-          <tr onmouseout="mfs_stop()" onmouseover="mfs_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mfs_image'>
-                  <img src='images/mfs_1.png' width="160"></div>
-                <img src='images/mfs_2.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function mfs_start() {
-                  document.getElementById('mfs_image').style.opacity = "1";
-                }
-
-                function mfs_stop() {
-                  document.getElementById('mfs_image').style.opacity = "0";
-                }
-                mfs_stop()
-              </script>
-            </td>
-            <td style="padding-left:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2207.08574">
-                <papertitle>Few-Sample Feature Selection via Feature Manifold Learning</papertitle>
-              </a>
-              <br>
-              <a>David Cohen</a>,
-              <strong>Tal Shnitzer</strong>,
-              <a href="https://medicine.yale.edu/lab/kluger/">Yuval Kluger</a>,
-              <a href="https://ronentalmon.com/">Ronen Talmon</a>
-              <br>
-			  <em>ICML</em>, 2023
-              <br>
-              <a href="https://arxiv.org/abs/2207.08574">arXiv</a>
-	      /
-              <a href="https://openreview.net/pdf?id=0lufU7dRWA">paper</a>
-	      /
-	      <a href="https://github.com/DavidCohen2/ManiFeSt">code</a>
-              <p></p>
-            </td>
-          </tr>
-
-          <!-- -------------------------- RMRA -------------------------- -->
-          <tr onmouseout="rmra_stop()" onmouseover="rmra_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='rmra_image'>
-                  <img src='images/rmra_1.png' width="160"></div>
-                <img src='images/rmra_2.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function rmra_start() {
-                  document.getElementById('rmra_image').style.opacity = "1";
-                }
-
-                function rmra_stop() {
-                  document.getElementById('rmra_image').style.opacity = "0";
-                }
-                rmra_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/2202.01671.pdf">
-                <papertitle>Spatiotemporal analysis using riemannian composition of diffusion operators</papertitle>
-              </a>
-              <br>
-              <strong>Tal Shnitzer</strong>,
-              <a href="https://hautiengwu.wordpress.com/home/">Hau-Tieng Wu</a>,
-              <a href="https://ronentalmon.com/">Ronen Talmon</a>
-              <br>
-			  <em>ACHA Elsevier</em>, 2023
-              <br> 
-              <a href="https://arxiv.org/pdf/2201.08530.pdf">arXiv</a>
-              /
-              <a href="https://github.com/shnitzer/riemannian-operators-for-multivariate-time-series">code</a>
-              <p></p>
-            </td>
-          </tr>
-
-          <!-- -------------------------- LES -------------------------- -->
+		  <!-- -------------------------- LES -------------------------- -->
           <tr onmouseout="les_stop()" onmouseover="les_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -222,6 +162,65 @@
               <a href="https://proceedings.mlr.press/v162/shnitzer22a/shnitzer22a.pdf">paper</a>
               /
               <a href="https://github.com/shnitzer/les-distance">code</a>
+              <p></p>
+            </td>
+          </tr>
+
+		<!-- TODO selected publication -->
+        <!-- ############################# Publications ################################# -->
+
+		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Clinical ML and Digital Health Publications</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+		  
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Geometric Machine Learning and Manifold Methods Publications</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	  
+          <!-- -------------------------- RMRA -------------------------- -->
+          <tr onmouseout="rmra_stop()" onmouseover="rmra_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rmra_image'>
+                  <img src='images/rmra_1.png' width="160"></div>
+                <img src='images/rmra_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function rmra_start() {
+                  document.getElementById('rmra_image').style.opacity = "1";
+                }
+
+                function rmra_stop() {
+                  document.getElementById('rmra_image').style.opacity = "0";
+                }
+                rmra_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2202.01671.pdf">
+                <papertitle>Spatiotemporal analysis using riemannian composition of diffusion operators</papertitle>
+              </a>
+              <br>
+              <strong>Tal Shnitzer</strong>,
+              <a href="https://hautiengwu.wordpress.com/home/">Hau-Tieng Wu</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+              <br>
+			  <em>ACHA Elsevier</em>, 2023
+              <br> 
+              <a href="https://arxiv.org/pdf/2201.08530.pdf">arXiv</a>
+              /
+              <a href="https://github.com/shnitzer/riemannian-operators-for-multivariate-time-series">code</a>
               <p></p>
             </td>
           </tr>
